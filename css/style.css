@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.eot');
+    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff'),
+    url('../fonts/Roboto-Medium.ttf') format('truetype'),
+    url('../fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Light.eot');
+    src: url('../fonts/Manrope-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Manrope-Light.woff2') format('woff2'),
+    url('../fonts/Manrope-Light.woff') format('woff'),
+    url('../fonts/Manrope-Light.ttf') format('truetype'),
+    url('../fonts/Manrope-Light.svg#Manrope-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: darkblue
+}
+.conteiner{
+    max-width:1110px; margin: auto
+}
+.d-flex{
+    display: flex; justify-content: space-between; align-items: center
+}
+header ul li{
+    margin: 0 10px;
+    font-weight: 500; font-size: 16px; line-height: 150%; color: #FFFFFF;font-family: Roboto}
+
+header ul li a{
+    margin: 0 10px;
+    font-weight: 500; font-size: 16px; line-height: 150%; color: #FFFFFF;font-family: Roboto}
+.h1{
+    font-size: 56px;line-height: 130%;color: #FFFFFF;text-shadow: 0px 0px 166px #000000;font-family: 'Gothic A1', sans-serif;font-weight: normal;
+}
+
+.order1{
+    padding: 20px 48.5px;display: flex;flex-direction: row;justify-content: center;align-items: center;padding: 0px;width: 255px;height: 70px;background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);border-radius: 10px;font-weight: 500;
+    font-size: 20px;line-height: 150%;color: #FFFFFF;font-family: Roboto;
+}
+.order2{
+    display: flex;flex-direction: row;justify-content: center;align-items: center;padding: 0px;position: static;width: 255px;height: 70px;left: 0px;top: 230px;background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);border-radius: 10px;
+}
+.order_list{
+      font-weight: 300;font-size: 16px;line-height: 150%;color: #000000;opacity: 0.5;width: 100%;border: none;border-bottom: solid 1px black; display: block
+}
+.order_list_1{
+     font-weight: 300;font-size: 16px;line-height: 150%;color: #000000;opacity: 0.5;width: 100%;border: none;border-bottom: solid 1px black;height: 30px;width: 100%; resize: none;display: block
+}
+.sale_background{
+    margin-bottom: 98.34px;display: flex;max-width: 512px;padding-top: 30px;padding-bottom: 34.17px;left: 0px;top: 176px;background: #FFFFFF;opacity: 0.9;border-radius: 20px;margin-top: 30px
+}
+.box{
+    width: 44px;height: 44px;left: 0px;top: 8px;flex: none;order: 0;flex-grow: 0;margin: 0px 28px;
+}
+.discont{
+    font-weight: 500;font-size: 20px;line-height: 150%;color: #000000;font-family: Roboto;
+}
+.bubbles1{
+    display: block; margin-bottom: 202px;width: 100%;
+}
+
+.h3{
+    font-weight: 400;font-size: 24px;line-height: 130%;color: #000000;
+}
+.form_dz#4{
+    max-width: 410px;width: 100%
+}
+
+.sofa{
+    max-width: 615px;display: block;width: 100%
+}
+.background_1{
+    background-size: cover;height: 100vh;padding-top: 170px
+}
+header ul{
+    display: flex;list-style: none
+}
+.div_1{
+    max-width:1110px; margin: auto
+}
+.div_2{
+    display: flex; justify-content: space-between;max-width: 1110px;margin: auto
+}
+.section_order{
+   padding-top: 22px; padding-bottom: 200px
+}
+strong{
+    font-weight: bold;
+}
+.about_us_bubbles{
+    display: block; margin-bottom: 160px;margin-top: 15px;width: 100%
+}
+.div_3{
+    max-width: 385px
+}
+.h4{
+    font-weight: 400;font-size: 24px;line-height: 130%;color: #000000;font-family: 'Gothic A1', sans-serif;font-weight: normal
+}
+.bathroom_pic{
+    max-width: 770px; width: 100%
+}
+.about_us_1{
+    margin-top: 60px;font-weight: 300;font-size: 20px;line-height: 150%;color: #000000;font-family: 'Manrope'
+}
+.about_us_2{
+    font-weight: 300;font-size: 20px;line-height: 150%;color: #000000;font-family: 'Manrope'
+}
+.m_width392{
+    max-width: 392px
+}
+.p_top29{
+    padding-top: 29px
+}
+.p_top40{
+    padding-top: 40px
+}
+.p_top61{
+    padding-top: 40px
+}
