@@ -87,7 +87,7 @@ header ul li a{
     max-width: 615px;display: block;width: 100%
 }
 .background_1{
-    background-size: cover;height: 100vh;padding-top: 170px
+    background-size: cover;height: 100vh;padding-top: 170px;
 }
 header ul{
     display: flex;list-style: none
@@ -164,3 +164,145 @@ div article p{
     line-height: 150%;
     color: #373737;
 }
+/*section question*/
+.price{
+    background-color: #4C6071;
+    padding: 60px;
+
+}
+.m-widht_price{
+    max-width: 1190px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+.m-widht_price2{
+    max-width: 1190px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 30px;
+}
+.m-widht_price h4{
+    padding: 30px 370px 30px 30px;
+    text-decoration: none;
+    font-weight: normal;
+     }
+.m-widht_price2 h4{
+    text-decoration: none;
+    font-weight: normal;
+
+}
+.question{
+    background-color: #4C6071;
+    max-width: 1128px;
+    border-radius: 30px;
+    align-items: start;
+    margin-top: 20px;
+  }
+.decor_paint{
+    margin: 30px 30px 10px 30px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    padding: 20px;
+    padding-left: 20px;
+    max-width: 408px;
+    }
+.decor_paint:nth-child(2){
+    margin: 0px 30px 10px 30px;
+}
+.decor_paint:last-of-type{
+    margin: 0px 30px 80px 30px;
+}
+.question_pic{
+    max-width: 610px;
+margin: 30px 50px 10px 0px;
+
+
+}
+
+.button_back{
+    background: #8F8F8F;
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 116px;
+    max-width: 290px;
+    justify-content: space-between;
+    display: inline-block
+    }
+.button_next{
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 116px;
+    max-width: 290px;
+    justify-content: space-between;
+    display: inline-block;
+     }
+
+/*section portfolio*/
+.portfolio{
+    margin-top: 182px;
+    margin-bottom: 177px;
+}
+.portfolio_bubbles{
+    width: 100%;
+}
+.portfolio h4{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    padding-bottom: 50px;
+}
+.portfolio .image{
+    max-width: 540px;
+    padding-bottom: 20px;
+}
+.portfolio .image_text{
+    max-width: 540px;
+    padding-bottom: 100px;
+}
+.portfolio h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    padding-bottom: 10px;
+}
+.portfolio p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+   }
+
+.portfolio_button{
+
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 68px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    justify-content: center;
+    }
