@@ -177,7 +177,8 @@ padding-right: 120px}
     font-size: 24px;
     line-height: 130%;
     color: #FFFFFF;
-}
+    padding-left: 260px;
+  }
 .why_we article{
     margin-top: 67px;
     background-color: #FFFFFF;
@@ -332,6 +333,7 @@ margin: 30px 50px 10px 0px;
     line-height: 130%;
     color: #000000;
     padding-bottom: 50px;
+    padding-left: 95px;
 }
 .portfolio .image{
     max-width: 540px;
@@ -377,6 +379,19 @@ margin: 30px 50px 10px 0px;
     align-items: center;
     display: flex;
     }
+
+
+/*section see more*/
+.see_more h4{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    padding-bottom: 50px;
+    padding-left: 95px;
+}
 
 .see_more a{
     justify-content:center;background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);border-radius: 10px;padding: 20px 45px;font-family: 'Roboto';font-style: normal;font-weight: 300;font-size: 20px;line-height: 150%;color: #FFFFFF;
