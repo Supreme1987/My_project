@@ -31,8 +31,9 @@
     margin: 0;
 }
 header{
-    background-color: darkblue
+background-color: #4C6071
 }
+
 .conteiner{
     max-width:1110px; margin: auto
 }
@@ -55,7 +56,12 @@ header ul li a{
     font-size: 20px;line-height: 150%;color: #FFFFFF;font-family: Roboto;
 }
 .order2{
-    display: flex;flex-direction: row;justify-content: center;align-items: center;padding: 0px;position: static;width: 255px;height: 70px;left: 0px;top: 230px;background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);border-radius: 10px;
+    display: flex;flex-direction: row;justify-content: center;align-items: center;padding: 0px;position: static;width: 255px;height: 70px;left: 0px;top: 230px;background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);border-radius: 10px;font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+   color: #FFFFFF;
 }
 .order_list{
       font-weight: 300;font-size: 16px;line-height: 150%;color: #000000;opacity: 0.5;width: 100%;border: none;border-bottom: solid 1px black; display: block
@@ -139,6 +145,37 @@ strong{
 .p_top61{
     padding-top: 40px
 }
+/*section why_we*/
+.why_we{
+    background-image: url("../images/bg_image_why we.jpg");
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+.why_we .d-flex{
+    align-items: stretch;
+}
+.why_we_pic{
+    text-align: center;
+    padding-top: 50px;
+}
+.why_we h4{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.why_we article{
+    margin-top: 67px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 255px;
+    }
+.stretch{
+    align-items: stretch;
+}
+
 .why_we_text_head{
     font-family: 'Roboto';
     font-style: normal;
@@ -147,6 +184,10 @@ strong{
     line-height: 150%;
     color: #373737;
     text-align: left;
+    padding-top: 50px;
+    padding-left: 30px;
+    width: 195px;
+
 }
 .why_we_text{
    font-family: 'Roboto';
@@ -155,6 +196,10 @@ strong{
     font-size: 16px;
     line-height: 150%;
     color: #373737;
+    width: 195px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 div article p{
     font-family: 'Roboto';
@@ -292,7 +337,6 @@ margin: 30px 50px 10px 0px;
    }
 
 .portfolio_button{
-
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
@@ -304,5 +348,62 @@ margin: 30px 50px 10px 0px;
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
+        }
+.button_center{
     justify-content: center;
+    align-items: center;
+    display: flex;
     }
+
+.see_more a{
+    justify-content:center;background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);border-radius: 10px;padding: 20px 45px;font-family: 'Roboto';font-style: normal;font-weight: 300;font-size: 20px;line-height: 150%;color: #FFFFFF;
+}
+.see_more .button_center{
+    padding-bottom: 150px;
+}
+
+/*section video*/
+
+.video{
+    background-color: #4C6071;
+    background-image: url('../images/video_bg_png.png');
+    background-size: cover;
+  padding-top: 60px;
+    padding-bottom: 95px;
+}
+.video img{
+    border-radius: 20px;
+    max-width: 255px;
+}
+.video h1{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-bottom: 87px;
+    padding-left: 260px;
+}
+.video h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+        color: #FFFFFF;
+    max-width: 255px;
+    padding-top: 20px;
+}
+.video p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+    max-width: 255px;
+    padding-top: 10px;
+}
+a{text-decoration: none;
+}
