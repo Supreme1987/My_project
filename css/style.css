@@ -31,7 +31,7 @@
     margin: 0;
 }
 header{
-background-color: #4C6071
+position: absolute;width: 100%;
 }
 
 .conteiner{
@@ -79,11 +79,11 @@ header ul li a{
     font-weight: 500;font-size: 20px;line-height: 150%;color: #000000;font-family: Roboto;
 }
 .bubbles1{
-    display: block; margin-bottom: 202px;width: 100%;
+    margin-bottom: 202px;width: 100%;
 }
 
 .h3{
-    font-weight: 400;font-size: 24px;line-height: 130%;color: #000000;
+    font-family: 'Roboto';font-style: normal;font-weight: 400;font-size: 24px;line-height: 130%;color: #000000;
 }
 .form_dz#4{
     max-width: 410px;width: 100%
@@ -93,7 +93,7 @@ header ul li a{
     max-width: 615px;display: block;width: 100%
 }
 .background_1{
-    background-size: cover;height: 100vh;padding-top: 170px;
+    background-size: cover;height: 80vh;padding-top: 170px;
 }
 header ul{
     display: flex;list-style: none
@@ -101,8 +101,14 @@ header ul{
 .div_1{
     max-width:1110px; margin: auto
 }
+
+
+/*section about us*/
+.about_us{
+    display: flex; justify-content: space-between;padding-bottom: 160px;
+}
 .div_2{
-    display: flex; justify-content: space-between;max-width: 1110px;margin: auto;padding-bottom: 160px;
+    display: flex; justify-content: space-between;
 }
 .section_order{
    padding-top: 22px; padding-bottom: 200px
@@ -114,7 +120,7 @@ strong{
     display: block; margin-bottom: 160px;margin-top: 15px;width: 100%;
 }
 .div_3{
-    max-width: 385px
+    width: 385px;padding-right: 120px;
 }
 .h4{
     font-family: 'Gothic A1';
@@ -125,14 +131,19 @@ strong{
      color: #000000;
 }
 .bathroom_pic{
-    max-width: 770px; width: 100%
+    max-width: 770px;
+
 }
 .about_us_1{
-    margin-top: 60px;font-weight: 300;font-size: 20px;line-height: 150%;color: #000000;font-family: 'Manrope'
+    font-family: 'Roboto';font-style: normal;margin-top: 60px;font-weight: 300;font-size: 20px;line-height: 150%;color: #000000;
 }
 .about_us_2{
-    font-weight: 300;font-size: 20px;line-height: 150%;color: #000000;font-family: 'Manrope'
+    font-family: 'Roboto';font-style: normal;font-weight: 300;font-size: 20px;line-height: 150%;color: #000000;
 }
+.m_width385{
+width: 385px;
+padding-right: 120px}
+
 .m_width392{
     max-width: 392px
 }
@@ -147,7 +158,8 @@ strong{
 }
 /*section why_we*/
 .why_we{
-    background-image: url("../images/bg_image_why we.jpg");
+    background-color: #4C6071;
+    background-image: url("../images/why_us_background(Anatolii).svg");
     padding-top: 60px;
     padding-bottom: 60px
 }
@@ -212,6 +224,7 @@ div article p{
 /*section question*/
 .price{
     background-color: #4C6071;
+    background-image: url("../images/why_us_background(Anatolii).svg");
     padding: 60px;
 
 }
@@ -260,7 +273,7 @@ div article p{
     padding: 20px;
     padding-left: 20px;
     max-width: 408px;
-    }
+        }
 .decor_paint:nth-child(2){
     margin: 0px 30px 10px 30px;
 }
@@ -270,28 +283,38 @@ div article p{
 .question_pic{
     max-width: 610px;
 margin: 30px 50px 10px 0px;
-
-
 }
-
+.question_pic_button{
+    justify-content: space-between;
+    display: flex;
+}
 .button_back{
     background: #8F8F8F;
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     padding: 20px 116px;
-    max-width: 290px;
-    justify-content: space-between;
-    display: inline-block
-    }
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+      color: #FFFFFF;
+        }
 .button_next{
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     padding: 20px 116px;
-    max-width: 290px;
-    justify-content: space-between;
-    display: inline-block;
-     }
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+     color: #FFFFFF;
+}
+.question_label{
+    display: flex;justify-content: space-between;align-items: center;
+}
 
 /*section portfolio*/
 .portfolio{
@@ -366,9 +389,8 @@ margin: 30px 50px 10px 0px;
 
 .video{
     background-color: #4C6071;
-    background-image: url('../images/video_bg_png.png');
-    background-size: cover;
-  padding-top: 60px;
+    background-image: url('../images/why_us_background(Anatolii).svg');
+    padding-top: 60px;
     padding-bottom: 95px;
 }
 .video img{
@@ -407,3 +429,9 @@ color: #FFFFFF;
 }
 a{text-decoration: none;
 }
+
+
+/*footer*/
+
+
+
