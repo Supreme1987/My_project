@@ -107,9 +107,7 @@ header ul{
 .about_us{
     display: flex; justify-content: space-between;padding-bottom: 160px;
 }
-.div_2{
-    display: flex; justify-content: space-between;
-}
+
 .section_order{
    padding-top: 22px; padding-bottom: 200px
 }
@@ -130,9 +128,12 @@ strong{
     line-height: 130%;
      color: #000000;
 }
-.bathroom_pic{
+.m_w-bathroom{
     max-width: 770px;
 }
+.bathroom_pic{
+        width: 100%;
+   }
 .about_us_1{
     font-family: 'Roboto';font-style: normal;margin-top: 60px;font-weight: 300;font-size: 20px;line-height: 150%;color: #000000;
 }
@@ -168,6 +169,7 @@ padding-right: 120px}
 .why_we_pic{
     text-align: center;
     padding-top: 50px;
+
 }
 .why_we h4{
     font-family: 'Gothic A1';
@@ -281,12 +283,16 @@ div article p{
     margin: 0px 30px 80px 30px;
 }
 .question_pic{
+width: 100%}
+
+.question_pic1{
     max-width: 610px;
-margin: 30px 50px 10px 0px;
+    margin:30px 50px 30px 0px;
 }
-.question_pic_button{
+
+.question_pic1_button{
     justify-content: space-between;
-    display: flex;
+    display:flex;
 }
 .button_back{
     background: #8F8F8F;
@@ -446,6 +452,65 @@ a{text-decoration: none;
 
 
 /*footer*/
+footer ul li:first-child{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-top: 50px
 
+}
+.footer_contact{
+    text-decoration:none;color: white
+}
+footer ul li{
+    font-family: 'Roboto';font-style: normal;font-weight: 300;font-size: 16px;line-height: 150%;color: #FFFFFF;margin-top: 30px
+}
+.footer_ul-1{
+    list-style: none
+}
+.footer_ul-2{
+    list-style: none
+}
+.footer_icon{
+    margin-top: 30px;display: flex;}
+.footer_icon_margin{
+    margin-left: 22px
+}
+.footer_ul-2 li:first-child{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 57px;
+}
+.map{
+  width: 540px;
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.map_black{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;}
 
-
+.map_black p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+   text-align: center;
+    color: #FFFFFF;
+    width: 350px;
+    padding: 45px 95px;
+    }

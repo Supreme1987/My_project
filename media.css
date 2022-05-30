@@ -1,10 +1,10 @@
 @media only screen and (max-width: 320px){
-.about_us{
-    display: block;
-}
+
 }
 @media only screen and (max-width: 360px){
-
+.sale_background{
+    margin-bottom: 50px
+}
 }
 @media only screen and (max-width: 375px){
 
@@ -16,16 +16,58 @@
 
 }
 @media only screen and (max-width: 768px){
+header .d-flex{
+    display: block;
+    }
+    .background_1{
+        padding-top: 300px;
+    }
+    .div_1 h1{
+        font-size: 40px;
+    }
+    .why_we h4{padding-left: 100px}
 
 }
 @media only screen and (max-width: 820px){
 
 }
 @media only screen and (max-width: 992px){
-
+header ul{
+    display: block;
+}
+   .why_we .d-flex{
+       flex-wrap: wrap;
+       justify-content: space-around;
+          }
+   footer .d-flex{
+      flex-wrap: wrap;
+   }
 }
 @media only screen and (max-width: 1024px){
     .about_us{
         display: block;
+     }
+    .div_3{
+        width: 100%;
     }
+    .see_more .d-flex{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .video .d-flex{
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+}
+    .section_order .d-flex{
+        display: block;
+        }
+.portfolio .d-flex{
+    display: block;
+        }
+}
+@media only screen and (max-width: 1044px){
+.price .d-flex.question_description{
+    display: block;
+}
 }

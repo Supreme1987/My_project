@@ -13,13 +13,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Gothic+A1:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 <header>
     <div class="conteiner d-flex">
-        <a href="index.html"> <img src=images/logo.svg alt="logo"></a>
-        <nav>
+                <a href="index.html"> <img src=images/logo.svg alt="logo"></a>
+                <nav>
             <ul>
                 <li><a href="https://google.com.ua">Главная</a></li>
                 <li><a href="https://google.com.ua">Портфолио</a></li>
@@ -59,7 +60,9 @@
         </p>
             </div>
         </div>
+        <div class="m_w-bathroom">
         <img src="images/bathroom.jpg" alt="bathroom" class="bathroom_pic">
+        </div>
     </div>
 
 </section>
@@ -145,15 +148,13 @@
 </label>
                 </form>
                     </div>
-                        <div class="question_pic">
-                            <img src="images/qestion_pic.png" alt="pic">
-                            <div class="question_pic_button">
+                        <div class="question_pic1">
+                            <img src="images/qestion_pic.png" alt="pic" class="question_pic">
+                            <div class="question_pic1_button">
                                 <a href="http://google.com.ua" class="button_back">Назад</a>
                                 <a href="http://google.com.ua" class="button_next">Далее</a>
                             </div>
                         </div>
-
-
             </div>
         </div>
 
@@ -219,7 +220,7 @@
 
 <section class="section_order">
 
-    <div class="div_2 conteiner">
+    <div class="d-flex conteiner">
 
     <form name="dz#4" method="post" action="#">
         <h3 class="h3">Давайте обсудим ваш проект</h3>
@@ -247,23 +248,27 @@
   </section>
 <footer>
     <section style="background-color: #4C6071;background-image:url('images/why_us_background(Anatolii).svg');background-size: cover;padding-top: 1px;height: 240px">
-    <div style="justify-content: space-between; align-items: center; display: flex;max-width: 1110px;margin: auto;">
-               <ul style = "list-style: none">
-            <li style="font-family: 'Gothic A1';font-style: normal;font-weight: 400;font-size: 24px;line-height: 130%;color: #FFFFFF;margin-top: 50px"> <a style="text-decoration:none;color: white" href="https://google.com.ua">Контакты</a></li>
-            <li style="font-family: 'Roboto';font-style: normal;font-weight: 300;font-size: 16px;line-height: 150%;color: #FFFFFF;margin-top: 30px">Мы в соц. сетях</li>
-            <li style="margin-top: 30px;display: flex";>
+    <div class="conteiner d-flex">
+               <ul class="footer_ul-1">
+            <li> <a class="footer_contact" href="https://google.com.ua">Контакты</a></li>
+            <li style="">Мы в соц. сетях</li>
+            <li class="footer_icon">
                 <a href="https://facebook.com"> <img src="images/facebook-square%201.png" alt="fb"></a>
-                <a href="https://web.telegram.org"><img style="margin-left: 22px;" src="images/telegram-square%201.png" alt="tg"></a>
-                <a href="https://instagram.com"><img style="margin-left: 22px" src="images/instagram%202.png" alt="inst"></a>
-                <a href="https://viber.com"><img style="margin-left: 22px" src="images/viber-square%201.png" alt="viber"></a>
+                <a href="https://web.telegram.org"><img class="footer_icon_margin" src="images/telegram-square%201.png" alt="tg"></a>
+                <a href="https://instagram.com"><img class="footer_icon_margin" src="images/instagram%202.png" alt="inst"></a>
+                <a href="https://viber.com"><img class="footer_icon_margin" src="images/viber-square%201.png" alt="viber"></a>
             </li>
         </ul>
-        <ul style = "list-style: none">
-            <li style="font-family: 'Roboto';font-style: normal;font-weight: 300;font-size: 16px;line-height: 150%;color: #FFFFFF;margin-top: 57px;">General contacts</li>
-            <li style="font-family: 'Roboto';font-style: normal;font-weight: 300;font-size: 16px;line-height: 150%;color: #FFFFFF;margin-top: 30px;">example@gmail.com</li>
-            <li style="font-family: 'Roboto';font-style: normal;font-weight: 300;font-size: 16px;line-height: 150%;color: #FFFFFF;margin-top: 30px;">+7 495 178 57 17</li>
+        <ul class="footer_ul-2">
+            <li style="">General contacts</li>
+            <li>example@gmail.com</li>
+            <li>+7 495 178 57 17</li>
         </ul>
-        <img src="images/map.png" alt="map" style="max-width: 540px;margin-top: 50px;margin-left: 130px">
+        <div class="map">
+            <div class="map_black"><p>Нажмите чтобы посмотреть на карте</p></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d84548.61449183682!2d34.96175462006837!3d48.53046812974442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1653914728411!5m2!1sru!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
     </div>
             </section>
     </footer>
