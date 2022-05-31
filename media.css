@@ -29,7 +29,7 @@ header .d-flex{
 
 }
 @media only screen and (max-width: 820px){
-
+    .question_pic1_button {display: block;}
 }
 @media only screen and (max-width: 992px){
 header ul{
@@ -62,12 +62,24 @@ header ul{
     .section_order .d-flex{
         display: block;
         }
+    .section_order .m_width392{
+        max-width: none;
+    }
+    .order2{width: 100%}
 .portfolio .d-flex{
     display: block;
         }
+   .m-widht_price h4{
+       width: 100%;
+   }
+    .price .d-flex{
+        display: block;
+    }
+    .portfolio .image{
+        width: 100%;
+    }
+    .portfolio .image_text{
+        width: 100%}
+
 }
-@media only screen and (max-width: 1044px){
-.price .d-flex.question_description{
-    display: block;
-}
-}
+

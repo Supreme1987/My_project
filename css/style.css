@@ -90,7 +90,10 @@ header ul li a{
 }
 
 .sofa{
-    max-width: 615px;display: block;width: 100%
+    max-width: 615px;display: block;
+}
+.w_100{
+    width: 100%;
 }
 .background_1{
     background-size: cover;height: 80vh;padding-top: 170px;
@@ -340,12 +343,15 @@ width: 100%}
     padding-bottom: 50px;
     padding-left: 95px;
 }
-.portfolio .image{
+.m_w_540{
     max-width: 540px;
+}
+.portfolio .image{
+
     padding-bottom: 20px;
 }
 .portfolio .image_text{
-    max-width: 540px;
+
     padding-bottom: 100px;
 }
 .portfolio h3{
