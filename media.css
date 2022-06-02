@@ -30,7 +30,18 @@ header .d-flex{
 }
 @media only screen and (max-width: 820px){
     .question_pic1_button {display: block;}
+    .button_back {
+        display: block;text-align: center;padding: 20px;
+    }
+    .button_next {
+        display: block;text-align: center;padding: 20px;
+    }
+       .question_pic1 {margin: auto}
+       .m_w-bathroom{max-width: none}
+       .m_w_540{max-width: none}
+       .sofa{max-width: none}
 }
+
 @media only screen and (max-width: 992px){
 header ul{
     display: block;
@@ -42,6 +53,9 @@ header ul{
    footer .d-flex{
       flex-wrap: wrap;
    }
+   .map{width: 100%;margin-left: 0px}
+   .map_black p{width:100%;padding: 30px}
+
 }
 @media only screen and (max-width: 1024px){
     .about_us{
@@ -80,6 +94,13 @@ header ul{
     }
     .portfolio .image_text{
         width: 100%}
+  .button_center a{
+      width: 100%;text-align: center;
+  }
+  .order1{width: 100%}
+    .sale_background {max-width: none}
+    .price form{padding-top: 1px}
+    .owl-nav{display: none}
 
 }
 

@@ -520,3 +520,21 @@ footer ul li{
     width: 350px;
     padding: 45px 95px;
     }
+.owl-nav .owl-prev:after{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f060";
+    color: #FFFFFF;
+    padding-right: 20px;
+}
+.owl-nav .owl-next:after{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f061";
+    color: white;
+}
+.owl-nav{
+    position: absolute;
+    right: 100px;
+    top: -100px;
+}
